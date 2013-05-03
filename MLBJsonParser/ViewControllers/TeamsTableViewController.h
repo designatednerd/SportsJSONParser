@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TeamsTableViewController.h
 //  MLBJsonParser
 //
 //  Created by Transferred on 5/2/13.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TeamsTableViewController : UITableViewController
 
+-(id)initWithTeams:(NSArray *)teams forLeagueNamed:(NSString *)leagueName;
 @end

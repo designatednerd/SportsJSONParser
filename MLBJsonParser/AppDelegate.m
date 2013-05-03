@@ -7,12 +7,50 @@
 //
 
 #import "AppDelegate.h"
+#import "SportsTableViewController.h"
+#import "Sport.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //Create the window object to take up the entire bounds of the screen.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //Bring in the JSON from the file.
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"sports" ofType:@"json"];
+    NSData *jsonData = [NSData dataWithContentsOfFile:filePath];
+    
+    //We can cast this to an array since we know for sure this is an array at the top level -
+    //NSJSONSerialization normally returns an id and you have to check whether it's an array
+    //or a dictionary.
+    NSError *error = nil;
+    NSArray *sportsDictionaryArray = [NSJSONSerialization JSONObjectWithData:jsonData options:kNilOptions error:&error];
+    
+    if (error != nil) {
+        //something failed in reading the json, log the error so we can figure out what went wrong.
+        NSLog(@"JSON error: %@", error);
+    }
+    
+    //Create a mutable array to go through the list of dictionaries we're getting back
+    NSMutableArray *sportsMutableArray = [NSMutableArray array];
+    for (NSDictionary *sportDictionary in sportsDictionaryArray) {
+        Sport *sport = [Sport sportFromDictionary:sportDictionary];
+        [sportsMutableArray addObject:sport];
+    }
+    
+    //Create a tableview controller using the array of sport objects we've used so far.
+    SportsTableViewController *sportsTVC = [[SportsTableViewController alloc] initWithSports:sportsMutableArray];
+    
+    //Create a navication controller with the sports TVC
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:sportsTVC];
+    
+    
+    //Add the nav controller as the window's root view controller, then make the window visible.
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

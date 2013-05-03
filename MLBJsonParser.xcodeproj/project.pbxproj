@@ -16,9 +16,13 @@
 		F5B792661733398B00E84264 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B792651733398B00E84264 /* Default.png */; };
 		F5B792681733398B00E84264 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B792671733398B00E84264 /* Default@2x.png */; };
 		F5B7926A1733398B00E84264 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B792691733398B00E84264 /* Default-568h@2x.png */; };
-		F5B7926D1733398B00E84264 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B7926B1733398B00E84264 /* MainStoryboard_iPhone.storyboard */; };
-		F5B792701733398B00E84264 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B7926E1733398B00E84264 /* MainStoryboard_iPad.storyboard */; };
-		F5B792731733398B00E84264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B792721733398B00E84264 /* ViewController.m */; };
+		F5B7927A1733399600E84264 /* sports.json in Resources */ = {isa = PBXBuildFile; fileRef = F5B792791733399600E84264 /* sports.json */; };
+		F5B7927D173339C400E84264 /* Sport.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7927C173339C400E84264 /* Sport.m */; };
+		F5B79281173339D900E84264 /* League.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B79280173339D900E84264 /* League.m */; };
+		F5B79284173339E800E84264 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B79283173339E800E84264 /* Team.m */; };
+		F5B7928717333F9100E84264 /* SportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7928617333F9100E84264 /* SportsTableViewController.m */; };
+		F5B7928B173340ED00E84264 /* LeaguesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7928A173340ED00E84264 /* LeaguesTableViewController.m */; };
+		F5B7928E1733423100E84264 /* TeamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7928D1733423100E84264 /* TeamsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +39,19 @@
 		F5B792651733398B00E84264 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F5B792671733398B00E84264 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F5B792691733398B00E84264 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F5B7926C1733398B00E84264 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		F5B7926F1733398B00E84264 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F5B792711733398B00E84264 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F5B792721733398B00E84264 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5B792791733399600E84264 /* sports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sports.json; sourceTree = "<group>"; };
+		F5B7927B173339C400E84264 /* Sport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sport.h; path = Models/Sport.h; sourceTree = "<group>"; };
+		F5B7927C173339C400E84264 /* Sport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sport.m; path = Models/Sport.m; sourceTree = "<group>"; };
+		F5B7927F173339D900E84264 /* League.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = League.h; path = Models/League.h; sourceTree = "<group>"; };
+		F5B79280173339D900E84264 /* League.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = League.m; path = Models/League.m; sourceTree = "<group>"; };
+		F5B79282173339E800E84264 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Team.h; path = Models/Team.h; sourceTree = "<group>"; };
+		F5B79283173339E800E84264 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Team.m; path = Models/Team.m; sourceTree = "<group>"; };
+		F5B7928517333F9100E84264 /* SportsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsTableViewController.h; sourceTree = "<group>"; };
+		F5B7928617333F9100E84264 /* SportsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsTableViewController.m; sourceTree = "<group>"; };
+		F5B79289173340ED00E84264 /* LeaguesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaguesTableViewController.h; path = ViewControllers/LeaguesTableViewController.h; sourceTree = "<group>"; };
+		F5B7928A173340ED00E84264 /* LeaguesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaguesTableViewController.m; path = ViewControllers/LeaguesTableViewController.m; sourceTree = "<group>"; };
+		F5B7928C1733423100E84264 /* TeamsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamsTableViewController.h; path = ViewControllers/TeamsTableViewController.h; sourceTree = "<group>"; };
+		F5B7928D1733423100E84264 /* TeamsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamsTableViewController.m; path = ViewControllers/TeamsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +100,10 @@
 			children = (
 				F5B792621733398B00E84264 /* AppDelegate.h */,
 				F5B792631733398B00E84264 /* AppDelegate.m */,
-				F5B7926B1733398B00E84264 /* MainStoryboard_iPhone.storyboard */,
-				F5B7926E1733398B00E84264 /* MainStoryboard_iPad.storyboard */,
-				F5B792711733398B00E84264 /* ViewController.h */,
-				F5B792721733398B00E84264 /* ViewController.m */,
+				F5B792791733399600E84264 /* sports.json */,
 				F5B7925A1733398B00E84264 /* Supporting Files */,
+				F5B7927E173339C800E84264 /* Models */,
+				F5B7928817333F9500E84264 /* ViewControllers */,
 			);
 			path = MLBJsonParser;
 			sourceTree = "<group>";
@@ -108,6 +120,32 @@
 				F5B792691733398B00E84264 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5B7927E173339C800E84264 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7927B173339C400E84264 /* Sport.h */,
+				F5B7927C173339C400E84264 /* Sport.m */,
+				F5B7927F173339D900E84264 /* League.h */,
+				F5B79280173339D900E84264 /* League.m */,
+				F5B79282173339E800E84264 /* Team.h */,
+				F5B79283173339E800E84264 /* Team.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F5B7928817333F9500E84264 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7928517333F9100E84264 /* SportsTableViewController.h */,
+				F5B7928617333F9100E84264 /* SportsTableViewController.m */,
+				F5B79289173340ED00E84264 /* LeaguesTableViewController.h */,
+				F5B7928A173340ED00E84264 /* LeaguesTableViewController.m */,
+				F5B7928C1733423100E84264 /* TeamsTableViewController.h */,
+				F5B7928D1733423100E84264 /* TeamsTableViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +203,7 @@
 				F5B792661733398B00E84264 /* Default.png in Resources */,
 				F5B792681733398B00E84264 /* Default@2x.png in Resources */,
 				F5B7926A1733398B00E84264 /* Default-568h@2x.png in Resources */,
-				F5B7926D1733398B00E84264 /* MainStoryboard_iPhone.storyboard in Resources */,
-				F5B792701733398B00E84264 /* MainStoryboard_iPad.storyboard in Resources */,
+				F5B7927A1733399600E84264 /* sports.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +216,12 @@
 			files = (
 				F5B792601733398B00E84264 /* main.m in Sources */,
 				F5B792641733398B00E84264 /* AppDelegate.m in Sources */,
-				F5B792731733398B00E84264 /* ViewController.m in Sources */,
+				F5B7927D173339C400E84264 /* Sport.m in Sources */,
+				F5B79281173339D900E84264 /* League.m in Sources */,
+				F5B79284173339E800E84264 /* Team.m in Sources */,
+				F5B7928717333F9100E84264 /* SportsTableViewController.m in Sources */,
+				F5B7928B173340ED00E84264 /* LeaguesTableViewController.m in Sources */,
+				F5B7928E1733423100E84264 /* TeamsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +234,6 @@
 				F5B7925D1733398B00E84264 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F5B7926B1733398B00E84264 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5B7926C1733398B00E84264 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		F5B7926E1733398B00E84264 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5B7926F1733398B00E84264 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
