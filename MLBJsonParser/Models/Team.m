@@ -26,5 +26,10 @@ static NSString * const kTeamLocationKey = @"team_location";
     return team;
 }
 
+-(NSString *)description
+{
+    return [NSString stringWithFormat:@"The %@ in %@", self.teamName, self.teamLocation];
+}
+
 
 @end

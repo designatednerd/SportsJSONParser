@@ -45,4 +45,9 @@ static NSString * const kLeagueTeamsKey = @"teams";
     return league;
 }
 
+-(NSString *)description
+{
+    return [NSString stringWithFormat:@"%@\nTeams %@", self.leagueName, self.teams];
+}
+
 @end
