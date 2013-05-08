@@ -8,7 +8,7 @@
 
 #import "LeaguesTableViewController.h"
 #import "League.h"
-#import "TeamsTableViewController.h"
+#import "Team.h"
 
 @interface LeaguesTableViewController ()
 @property (nonatomic, strong) NSArray *leagues;
@@ -42,13 +42,14 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return self.leagues.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return self.leagues.count;
+    League *sectionLeague = self.leagues[section];
+    return sectionLeague.teams.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -58,22 +59,30 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
+
+    League *sectionLeague = self.leagues[indexPath.section];
+    Team *rowTeam = sectionLeague.teams[indexPath.row];
     
-    League *rowLeague = self.leagues[indexPath.row];
-    
-    cell.textLabel.text = rowLeague.leagueName;
+    cell.textLabel.text = rowTeam.teamName;
+    cell.detailTextLabel.text = rowTeam.teamLocation;
     
     return cell;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    League *sectionLeague = self.leagues[section];
+    return sectionLeague.leagueName;
+}
 
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    League *rowLeague = self.leagues[indexPath.row];
-    TeamsTableViewController *teamsTVC = [[TeamsTableViewController alloc] initWithTeams:rowLeague.teams forLeagueNamed:rowLeague.leagueName];
-    [self.navigationController pushViewController:teamsTVC animated:YES];
+    League *sectionLeague = self.leagues[indexPath.section];
+    Team *rowTeam = sectionLeague.teams[indexPath.row];
+    
+    NSLog(@"Selected %@ in %@", rowTeam.teamName, rowTeam.teamLocation);
 }
 
 @end

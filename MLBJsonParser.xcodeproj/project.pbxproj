@@ -22,7 +22,6 @@
 		F5B79284173339E800E84264 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B79283173339E800E84264 /* Team.m */; };
 		F5B7928717333F9100E84264 /* SportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7928617333F9100E84264 /* SportsTableViewController.m */; };
 		F5B7928B173340ED00E84264 /* LeaguesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7928A173340ED00E84264 /* LeaguesTableViewController.m */; };
-		F5B7928E1733423100E84264 /* TeamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7928D1733423100E84264 /* TeamsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +49,6 @@
 		F5B7928617333F9100E84264 /* SportsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsTableViewController.m; sourceTree = "<group>"; };
 		F5B79289173340ED00E84264 /* LeaguesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaguesTableViewController.h; path = ViewControllers/LeaguesTableViewController.h; sourceTree = "<group>"; };
 		F5B7928A173340ED00E84264 /* LeaguesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaguesTableViewController.m; path = ViewControllers/LeaguesTableViewController.m; sourceTree = "<group>"; };
-		F5B7928C1733423100E84264 /* TeamsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamsTableViewController.h; path = ViewControllers/TeamsTableViewController.h; sourceTree = "<group>"; };
-		F5B7928D1733423100E84264 /* TeamsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamsTableViewController.m; path = ViewControllers/TeamsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +139,6 @@
 				F5B7928617333F9100E84264 /* SportsTableViewController.m */,
 				F5B79289173340ED00E84264 /* LeaguesTableViewController.h */,
 				F5B7928A173340ED00E84264 /* LeaguesTableViewController.m */,
-				F5B7928C1733423100E84264 /* TeamsTableViewController.h */,
-				F5B7928D1733423100E84264 /* TeamsTableViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -221,7 +216,6 @@
 				F5B79284173339E800E84264 /* Team.m in Sources */,
 				F5B7928717333F9100E84264 /* SportsTableViewController.m in Sources */,
 				F5B7928B173340ED00E84264 /* LeaguesTableViewController.m in Sources */,
-				F5B7928E1733423100E84264 /* TeamsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +332,7 @@
 				F5B792781733398B00E84264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
