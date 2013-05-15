@@ -1,135 +1,272 @@
- [
-  {
-  "game" : "Baseball",
-  "organization_name" : "Major League Baseball",
-  "founded" : "1875",
-  "leagues" : [
-               {
-               "league_name" : "American League",
-               "teams" : [
-                          {
-                          "team_name" : "Baltimore Orioles",
-                          "team_location" : "Baltimore, MD"
-                          },
-                          {
-                          "team_name" : "Boston Red Sox",
-                          "team_location" : "Boston, MA"
-                          },
-                          {
-                          "team_name" : "Chicago White Sox",
-                          "team_location" : "Chicago, IL"
-                          },
-                          {
-                          "team_name" : "Cleveland Indians",
-                          "team_location" : "Cleveland, OH"
-                          },
-                          {
-                          "team_name" : "Detroit Tigers",
-                          "team_location" : "Detroit, MI"
-                          },
-                          {
-                          "team_name" : "Houston Astros",
-                          "team_location" : "Houston, TX"
-                          },
-                          {
-                          "team_name" : "Kansas City Royals",
-                          "team_location" : "Kansas City, MO"
-                          },
-                          {
-                          "team_name" : "Minnesota Twins",
-                          "team_location" : "Minneapolis, MN"
-                          },
-                          {
-                          "team_name" : "New York Yankees",
-                          "team_location" : "New York, NY"
-                          },
-                          {
-                          "team_name" : "Oakland Athletics",
-                          "team_location" : "Oakland, CA"
-                          },
-                          {
-                          "team_name" : "Seattle Mariners",
-                          "team_location" : "Seattle, WA"
-                          },
-                          {
-                          "team_name" : "Tampa Bay Rays",
-                          "team_location" : "Tampa Bay, FL"
-                          },
-                          {
-                          "team_name" : "Texas Rangers",
-                          "team_location" : "Arlington, TX"
-                          },
-                          {
-                          "team_name" : "Toronto Blue Jays",
-                          "team_location" : "Toronto, ON (Canada)"
-                          }
-                          ]
-               },
-               {
-               "league_name" : "National League",
-               "teams" : [
-                          {
-                          "team_name" : "Arizona Diamondbacks",
-                          "team_location" : "Phoenix, AZ"
-                          },
-                          {
-                          "team_name" : "Atlanta Braves",
-                          "team_location" : "Atlanta, GA"
-                          },
-                          {
-                          "team_name" : "Chicago Cubs",
-                          "team_location" : "Chicago, IL"
-                          },
-                          {
-                          "team_name" : "Cincinnati Reds",
-                          "team_location" : "Cincinnati, OH"
-                          },
-                          {
-                          "team_name" : "Colorado Rockies",
-                          "team_location" : "Denver, CO"
-                          },
-                          {
-                          "team_name" : "Los Angeles Dodgers",
-                          "team_location" : "Los Angeles, CA"
-                          },
-                          {
-                          "team_name" : "Miami Marlins",
-                          "team_location" : "Miami, FL"
-                          },
-                          {
-                          "team_name" : "Milwaukee Brewers",
-                          "team_location" : "Milwaukee, WI"
-                          },
-                          {
-                          "team_name" : "New York Mets",
-                          "team_location" : "New York, NY"
-                          },
-                          {
-                          "team_name" : "Philadelphia Phillies",
-                          "team_location" : "Philadelphia, PA"
-                          },
-                          {
-                          "team_name" : "Pittsburgh Pirates",
-                          "team_location" : "Pittsburgh, PA"
-                          },
-                          {
-                          "team_name" : "San Diego Padres",
-                          "team_location" : "San Diego, CA"
-                          },
-                          {
-                          "team_name" : "San Francisco Giants",
-                          "team_location" : "San Francisco, CA"
-                          },
-                          {
-                          "team_name" : "St. Louis Cardinals",
-                          "team_location" : "St. Louis, MO"
-                          },
-                          {
-                          "team_name" : "Washington Nationals",
-                          "team_location" : "Washington, DC"
-                          }			
-                          ]
-               }
-               ]
-  }
-  ]
+[
+    {
+        "game": "Baseball",
+        "organization_name": "Major League Baseball",
+        "founded": "1875",
+        "leagues": [
+            {
+                "league_name": "American League",
+                "teams": [
+                    {
+                        "team_name": "Baltimore Orioles",
+                        "team_location": "Baltimore, MD"
+                    },
+                    {
+                        "team_name": "Boston Red Sox",
+                        "team_location": "Boston, MA"
+                    },
+                    {
+                        "team_name": "Chicago White Sox",
+                        "team_location": "Chicago, IL"
+                    },
+                    {
+                        "team_name": "Cleveland Indians",
+                        "team_location": "Cleveland, OH"
+                    },
+                    {
+                        "team_name": "Detroit Tigers",
+                        "team_location": "Detroit, MI"
+                    },
+                    {
+                        "team_name": "Houston Astros",
+                        "team_location": "Houston, TX"
+                    },
+                    {
+                        "team_name": "Kansas City Royals",
+                        "team_location": "Kansas City, MO"
+                    },
+                    {
+                        "team_name": "Minnesota Twins",
+                        "team_location": "Minneapolis, MN"
+                    },
+                    {
+                        "team_name": "New York Yankees",
+                        "team_location": "New York, NY"
+                    },
+                    {
+                        "team_name": "Oakland Athletics",
+                        "team_location": "Oakland, CA"
+                    },
+                    {
+                        "team_name": "Seattle Mariners",
+                        "team_location": "Seattle, WA"
+                    },
+                    {
+                        "team_name": "Tampa Bay Rays",
+                        "team_location": "Tampa Bay, FL"
+                    },
+                    {
+                        "team_name": "Texas Rangers",
+                        "team_location": "Arlington, TX"
+                    },
+                    {
+                        "team_name": "Toronto Blue Jays",
+                        "team_location": "Toronto, ON (Canada)"
+                    }
+                ]
+            },
+            {
+                "league_name": "National League",
+                "teams": [
+                    {
+                        "team_name": "Arizona Diamondbacks",
+                        "team_location": "Phoenix, AZ"
+                    },
+                    {
+                        "team_name": "Atlanta Braves",
+                        "team_location": "Atlanta, GA"
+                    },
+                    {
+                        "team_name": "Chicago Cubs",
+                        "team_location": "Chicago, IL"
+                    },
+                    {
+                        "team_name": "Cincinnati Reds",
+                        "team_location": "Cincinnati, OH"
+                    },
+                    {
+                        "team_name": "Colorado Rockies",
+                        "team_location": "Denver, CO"
+                    },
+                    {
+                        "team_name": "Los Angeles Dodgers",
+                        "team_location": "Los Angeles, CA"
+                    },
+                    {
+                        "team_name": "Miami Marlins",
+                        "team_location": "Miami, FL"
+                    },
+                    {
+                        "team_name": "Milwaukee Brewers",
+                        "team_location": "Milwaukee, WI"
+                    },
+                    {
+                        "team_name": "New York Mets",
+                        "team_location": "New York, NY"
+                    },
+                    {
+                        "team_name": "Philadelphia Phillies",
+                        "team_location": "Philadelphia, PA"
+                    },
+                    {
+                        "team_name": "Pittsburgh Pirates",
+                        "team_location": "Pittsburgh, PA"
+                    },
+                    {
+                        "team_name": "San Diego Padres",
+                        "team_location": "San Diego, CA"
+                    },
+                    {
+                        "team_name": "San Francisco Giants",
+                        "team_location": "San Francisco, CA"
+                    },
+                    {
+                        "team_name": "St. Louis Cardinals",
+                        "team_location": "St. Louis, MO"
+                    },
+                    {
+                        "team_name": "Washington Nationals",
+                        "team_location": "Washington, DC"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "game": "Basketball",
+        "organization_name": "National Basketball League",
+        "founded": "1946",
+        "leagues": [
+            {
+                "league_name": "Eastern Conference",
+                "teams": [
+                    {
+                        "team_name": "Atlanta Hawks",
+                        "team_location": "Atlanta, GA"
+                    },
+                    {
+                        "team_name": "Boston Celtics",
+                        "team_location": "Boston, MA"
+                    },
+                    {
+                        "team_name": "Brooklyn Nets",
+                        "team_location": "New York, NY"
+                    },
+                    {
+                        "team_name": "Charlotte Bobcats",
+                        "team_location": "Charlotte, NC"
+                    },
+                    {
+                        "team_name": "Chicago Bulls",
+                        "team_location": "Atlanta, GA"
+                    },
+                    {
+                        "team_name": "Cleveland Cavaliers",
+                        "team_location": "Cleveland, OH"
+                    },
+                    {
+                        "team_name": "Detroit Pistons",
+                        "team_location": "Detroit, MI"
+                    },
+                    {
+                        "team_name": "Indiana Pacers",
+                        "team_location": "Indianapolis, IN"
+                    },
+                    {
+                        "team_name": "Miami Heat",
+                        "team_location": "Miami, FL"
+                    },
+                    {
+                        "team_name": "Milwaukee Bucks",
+                        "team_location": "Milwaukee, WI"
+                    },
+                    {
+                        "team_name": "New York Knicks",
+                        "team_location": "New York, NY"
+                    },
+                    {
+                        "team_name": "Orlando Magic",
+                        "team_location": "Atlanta, GA"
+                    },
+                    {
+                        "team_name": "Philadelphia 76ers",
+                        "team_location": "Philadelphia, PA"
+                    },
+                    {
+                        "team_name": "Toronto Raptors",
+                        "team_location": "Toronto, ON"
+                    },
+                    {
+                        "team_name": "Washington Wizards",
+                        "team_location": "Washington, DC"
+                    }
+                ]
+            },
+            {
+                "league_name": "Western Conference",
+                "teams": [
+                    {
+                        "team_name": "Dallas Mavericks",
+                        "team_location": "Dallas, TX"
+                    },
+                    {
+                        "team_name": "Denver Nuggets",
+                        "team_location": "Denver, CO"
+                    },
+                    {
+                        "team_name": "Golden State Warriors",
+                        "team_location": "Oakland, CA"
+                    },
+                    {
+                        "team_name": "Houston Rockets",
+                        "team_location": "Houston, TX"
+                    },
+                    {
+                        "team_name": "Los Angeles Clippers",
+                        "team_location": "Los Angeles, CA"
+                    },
+                    {
+                        "team_name": "Los Angeles Lakers",
+                        "team_location": "Los Angeles, CA"
+                    },
+                    {
+                        "team_name": "Minnesota Timberwolves",
+                        "team_location": "Minneapolis, MN"
+                    },
+                    {
+                        "team_name": "New Orleans Hornets",
+                        "team_location": "New Orleans, LA"
+                    },
+                    {
+                        "team_name": "Oklahoma City Thunder",
+                        "team_location": "Oklahoma City, OK"
+                    },
+                    {
+                        "team_name": "Phoenix Suns",
+                        "team_location": "Phoenix, AZ"
+                    },
+                    {
+                        "team_name": "Portland Trail Blazers",
+                        "team_location": "Portland, OR"
+                    },
+                    {
+                        "team_name": "Sacramento Kings",
+                        "team_location": "Sacramento, CA"
+                    },
+                    {
+                        "team_name": "San Antonio Spurs",
+                        "team_location": "San Antonio, TX"
+                    },
+                    {
+                        "team_name": "Utah Jazz",
+                        "team_location": "Salt Lake City, UT"
+                    },
+                    {
+                        "team_name": "Vancouver Grizzlies",
+                        "team_location": "Vancouver, BC"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+SportsJSONParser
+================
+
+A quick example app I threw together to show a student I've been tutoring how to bring JSON into an app from a file stored within the app's file system. 
+
+You can add as many sports as you want to this application by editing the JSON file if their structure conforms to the Organization > League > Teams structure. 
+
+
+Copyright Note
+--------------
+All team and league names are copyright of their respective organizations. They are only used here for demonstration purposes. 
+
+License
+-------
+This project is licensed under the MIT license and can be used for free in any commercial or non-commercial applications. More information available here: http://en.wikipedia.org/wiki/MIT_License
+
+Questions?
+----------
+Email designatednerd at gmail dot com. Submit a pull request if you'd like to try to improve this code. 
+
+_May 14, 2013_

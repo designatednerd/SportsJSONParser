@@ -22,17 +22,18 @@
 		F5B79284173339E800E84264 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B79283173339E800E84264 /* Team.m */; };
 		F5B7928717333F9100E84264 /* SportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7928617333F9100E84264 /* SportsTableViewController.m */; };
 		F5B7928B173340ED00E84264 /* LeaguesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B7928A173340ED00E84264 /* LeaguesTableViewController.m */; };
+		F5FB19AE174314DE0065EAAE /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB19AD174314DE0065EAAE /* README.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5B792501733398B00E84264 /* MLBJsonParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBJsonParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B792501733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsJSONParser.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B792531733398B00E84264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5B792551733398B00E84264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5B792571733398B00E84264 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F5B7925B1733398B00E84264 /* MLBJsonParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLBJsonParser-Info.plist"; sourceTree = "<group>"; };
+		F5B7925B1733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SportsJSONParser.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
 		F5B7925D1733398B00E84264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5B7925F1733398B00E84264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F5B792611733398B00E84264 /* MLBJsonParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLBJsonParser-Prefix.pch"; sourceTree = "<group>"; };
+		F5B792611733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SportsJSONParser.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
 		F5B792621733398B00E84264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5B792631733398B00E84264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5B792651733398B00E84264 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		F5B7928617333F9100E84264 /* SportsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsTableViewController.m; sourceTree = "<group>"; };
 		F5B79289173340ED00E84264 /* LeaguesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaguesTableViewController.h; path = ViewControllers/LeaguesTableViewController.h; sourceTree = "<group>"; };
 		F5B7928A173340ED00E84264 /* LeaguesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaguesTableViewController.m; path = ViewControllers/LeaguesTableViewController.m; sourceTree = "<group>"; };
+		F5FB19AD174314DE0065EAAE /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		F5B792471733398A00E84264 = {
 			isa = PBXGroup;
 			children = (
+				F5FB19AD174314DE0065EAAE /* README.mdown */,
 				F5B792591733398B00E84264 /* MLBJsonParser */,
 				F5B792521733398B00E84264 /* Frameworks */,
 				F5B792511733398B00E84264 /* Products */,
@@ -77,7 +80,7 @@
 		F5B792511733398B00E84264 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5B792501733398B00E84264 /* MLBJsonParser.app */,
+				F5B792501733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,10 +111,10 @@
 		F5B7925A1733398B00E84264 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F5B7925B1733398B00E84264 /* MLBJsonParser-Info.plist */,
+				F5B7925B1733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename-Info.plist */,
 				F5B7925C1733398B00E84264 /* InfoPlist.strings */,
 				F5B7925F1733398B00E84264 /* main.m */,
-				F5B792611733398B00E84264 /* MLBJsonParser-Prefix.pch */,
+				F5B792611733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename-Prefix.pch */,
 				F5B792651733398B00E84264 /* Default.png */,
 				F5B792671733398B00E84264 /* Default@2x.png */,
 				F5B792691733398B00E84264 /* Default-568h@2x.png */,
@@ -146,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5B7924F1733398B00E84264 /* MLBJsonParser */ = {
+		F5B7924F1733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "MLBJsonParser" */;
+			buildConfigurationList = F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "SportsJSONParser.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				F5B7924C1733398B00E84264 /* Sources */,
 				F5B7924D1733398B00E84264 /* Frameworks */,
@@ -158,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = MLBJsonParser;
+			name = SportsJSONParser.temp_caseinsensitive_rename;
 			productName = MLBJsonParser;
-			productReference = F5B792501733398B00E84264 /* MLBJsonParser.app */;
+			productReference = F5B792501733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +175,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Designated Nerd Software";
 			};
-			buildConfigurationList = F5B7924B1733398B00E84264 /* Build configuration list for PBXProject "MLBJsonParser" */;
+			buildConfigurationList = F5B7924B1733398B00E84264 /* Build configuration list for PBXProject "SportsJSONParser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5B7924F1733398B00E84264 /* MLBJsonParser */,
+				F5B7924F1733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +202,7 @@
 				F5B792681733398B00E84264 /* Default@2x.png in Resources */,
 				F5B7926A1733398B00E84264 /* Default-568h@2x.png in Resources */,
 				F5B7927A1733399600E84264 /* sports.json in Resources */,
+				F5FB19AE174314DE0065EAAE /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +299,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLBJsonParser/MLBJsonParser-Prefix.pch";
-				INFOPLIST_FILE = "MLBJsonParser/MLBJsonParser-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MLBJsonParser/SportsJSONParser.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "MLBJsonParser/SportsJSONParser.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = SportsJSONParser.temp_caseinsensitive_rename;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -306,9 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLBJsonParser/MLBJsonParser-Prefix.pch";
-				INFOPLIST_FILE = "MLBJsonParser/MLBJsonParser-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MLBJsonParser/SportsJSONParser.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "MLBJsonParser/SportsJSONParser.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = SportsJSONParser.temp_caseinsensitive_rename;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -316,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5B7924B1733398B00E84264 /* Build configuration list for PBXProject "MLBJsonParser" */ = {
+		F5B7924B1733398B00E84264 /* Build configuration list for PBXProject "SportsJSONParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5B792741733398B00E84264 /* Debug */,
@@ -325,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "MLBJsonParser" */ = {
+		F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "SportsJSONParser.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5B792771733398B00E84264 /* Debug */,

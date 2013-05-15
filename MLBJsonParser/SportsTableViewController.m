@@ -63,7 +63,7 @@
     Sport *rowSport = self.sports[indexPath.row];
     
     cell.textLabel.text = rowSport.organizationName;
-    cell.detailTextLabel.text = rowSport.game;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - Founded %@", rowSport.game, rowSport.foundingYear];
     
     return cell;
 }
