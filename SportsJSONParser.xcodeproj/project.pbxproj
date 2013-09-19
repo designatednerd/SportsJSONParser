@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F521495017EB20C5003F6C6E /* sports.plist in Resources */ = {isa = PBXBuildFile; fileRef = F521494F17EB20C5003F6C6E /* sports.plist */; };
 		F5B792541733398B00E84264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792531733398B00E84264 /* UIKit.framework */; };
 		F5B792561733398B00E84264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792551733398B00E84264 /* Foundation.framework */; };
 		F5B792581733398B00E84264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792571733398B00E84264 /* CoreGraphics.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F521494F17EB20C5003F6C6E /* sports.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sports.plist; sourceTree = "<group>"; };
 		F5B792501733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsJSONParser.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B792531733398B00E84264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5B792551733398B00E84264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +103,7 @@
 				F5B792621733398B00E84264 /* AppDelegate.h */,
 				F5B792631733398B00E84264 /* AppDelegate.m */,
 				F5B792791733399600E84264 /* sports.json */,
+				F521494F17EB20C5003F6C6E /* sports.plist */,
 				F5B7925A1733398B00E84264 /* Supporting Files */,
 				F5B7927E173339C800E84264 /* Models */,
 				F5B7928817333F9500E84264 /* ViewControllers */,
@@ -149,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5B7924F1733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename */ = {
+		F5B7924F1733398B00E84264 /* SportsJSONParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "SportsJSONParser.temp_caseinsensitive_rename" */;
+			buildConfigurationList = F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "SportsJSONParser" */;
 			buildPhases = (
 				F5B7924C1733398B00E84264 /* Sources */,
 				F5B7924D1733398B00E84264 /* Frameworks */,
@@ -161,7 +164,7 @@
 			);
 			dependencies = (
 			);
-			name = SportsJSONParser.temp_caseinsensitive_rename;
+			name = SportsJSONParser;
 			productName = MLBJsonParser;
 			productReference = F5B792501733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
@@ -187,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5B7924F1733398B00E84264 /* SportsJSONParser.temp_caseinsensitive_rename */,
+				F5B7924F1733398B00E84264 /* SportsJSONParser */,
 			);
 		};
 /* End PBXProject section */
@@ -201,6 +204,7 @@
 				F5B792661733398B00E84264 /* Default.png in Resources */,
 				F5B792681733398B00E84264 /* Default@2x.png in Resources */,
 				F5B7926A1733398B00E84264 /* Default-568h@2x.png in Resources */,
+				F521495017EB20C5003F6C6E /* sports.plist in Resources */,
 				F5B7927A1733399600E84264 /* sports.json in Resources */,
 				F5FB19AE174314DE0065EAAE /* README.mdown in Resources */,
 			);
@@ -329,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "SportsJSONParser.temp_caseinsensitive_rename" */ = {
+		F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "SportsJSONParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5B792771733398B00E84264 /* Debug */,

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>founded</key>
+		<string>1875</string>
+		<key>game</key>
+		<string>Baseball</string>
+		<key>leagues</key>
+		<array>
+			<dict>
+				<key>league_name</key>
+				<string>American League</string>
+				<key>teams</key>
+				<array>
+					<dict>
+						<key>team_location</key>
+						<string>Baltimore, MD</string>
+						<key>team_name</key>
+						<string>Baltimore Orioles</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Boston, MA</string>
+						<key>team_name</key>
+						<string>Boston Red Sox</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Chicago, IL</string>
+						<key>team_name</key>
+						<string>Chicago White Sox</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Cleveland, OH</string>
+						<key>team_name</key>
+						<string>Cleveland Indians</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Detroit, MI</string>
+						<key>team_name</key>
+						<string>Detroit Tigers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Houston, TX</string>
+						<key>team_name</key>
+						<string>Houston Astros</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Kansas City, MO</string>
+						<key>team_name</key>
+						<string>Kansas City Royals</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Minneapolis, MN</string>
+						<key>team_name</key>
+						<string>Minnesota Twins</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>New York, NY</string>
+						<key>team_name</key>
+						<string>New York Yankees</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Oakland, CA</string>
+						<key>team_name</key>
+						<string>Oakland Athletics</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Seattle, WA</string>
+						<key>team_name</key>
+						<string>Seattle Mariners</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Tampa Bay, FL</string>
+						<key>team_name</key>
+						<string>Tampa Bay Rays</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Arlington, TX</string>
+						<key>team_name</key>
+						<string>Texas Rangers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Toronto, ON (Canada)</string>
+						<key>team_name</key>
+						<string>Toronto Blue Jays</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>league_name</key>
+				<string>National League</string>
+				<key>teams</key>
+				<array>
+					<dict>
+						<key>team_location</key>
+						<string>Phoenix, AZ</string>
+						<key>team_name</key>
+						<string>Arizona Diamondbacks</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Atlanta, GA</string>
+						<key>team_name</key>
+						<string>Atlanta Braves</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Chicago, IL</string>
+						<key>team_name</key>
+						<string>Chicago Cubs</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Cincinnati, OH</string>
+						<key>team_name</key>
+						<string>Cincinnati Reds</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Denver, CO</string>
+						<key>team_name</key>
+						<string>Colorado Rockies</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Los Angeles, CA</string>
+						<key>team_name</key>
+						<string>Los Angeles Dodgers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Miami, FL</string>
+						<key>team_name</key>
+						<string>Miami Marlins</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Milwaukee, WI</string>
+						<key>team_name</key>
+						<string>Milwaukee Brewers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>New York, NY</string>
+						<key>team_name</key>
+						<string>New York Mets</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Philadelphia, PA</string>
+						<key>team_name</key>
+						<string>Philadelphia Phillies</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Pittsburgh, PA</string>
+						<key>team_name</key>
+						<string>Pittsburgh Pirates</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>San Diego, CA</string>
+						<key>team_name</key>
+						<string>San Diego Padres</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>San Francisco, CA</string>
+						<key>team_name</key>
+						<string>San Francisco Giants</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>St. Louis, MO</string>
+						<key>team_name</key>
+						<string>St. Louis Cardinals</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Washington, DC</string>
+						<key>team_name</key>
+						<string>Washington Nationals</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>organization_name</key>
+		<string>Major League Baseball</string>
+	</dict>
+	<dict>
+		<key>founded</key>
+		<string>1946</string>
+		<key>game</key>
+		<string>Basketball</string>
+		<key>leagues</key>
+		<array>
+			<dict>
+				<key>league_name</key>
+				<string>Eastern Conference</string>
+				<key>teams</key>
+				<array>
+					<dict>
+						<key>team_location</key>
+						<string>Atlanta, GA</string>
+						<key>team_name</key>
+						<string>Atlanta Hawks</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Boston, MA</string>
+						<key>team_name</key>
+						<string>Boston Celtics</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>New York, NY</string>
+						<key>team_name</key>
+						<string>Brooklyn Nets</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Charlotte, NC</string>
+						<key>team_name</key>
+						<string>Charlotte Bobcats</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Atlanta, GA</string>
+						<key>team_name</key>
+						<string>Chicago Bulls</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Cleveland, OH</string>
+						<key>team_name</key>
+						<string>Cleveland Cavaliers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Detroit, MI</string>
+						<key>team_name</key>
+						<string>Detroit Pistons</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Indianapolis, IN</string>
+						<key>team_name</key>
+						<string>Indiana Pacers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Miami, FL</string>
+						<key>team_name</key>
+						<string>Miami Heat</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Milwaukee, WI</string>
+						<key>team_name</key>
+						<string>Milwaukee Bucks</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>New York, NY</string>
+						<key>team_name</key>
+						<string>New York Knicks</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Atlanta, GA</string>
+						<key>team_name</key>
+						<string>Orlando Magic</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Philadelphia, PA</string>
+						<key>team_name</key>
+						<string>Philadelphia 76ers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Toronto, ON</string>
+						<key>team_name</key>
+						<string>Toronto Raptors</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Washington, DC</string>
+						<key>team_name</key>
+						<string>Washington Wizards</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>league_name</key>
+				<string>Western Conference</string>
+				<key>teams</key>
+				<array>
+					<dict>
+						<key>team_location</key>
+						<string>Dallas, TX</string>
+						<key>team_name</key>
+						<string>Dallas Mavericks</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Denver, CO</string>
+						<key>team_name</key>
+						<string>Denver Nuggets</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Oakland, CA</string>
+						<key>team_name</key>
+						<string>Golden State Warriors</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Houston, TX</string>
+						<key>team_name</key>
+						<string>Houston Rockets</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Los Angeles, CA</string>
+						<key>team_name</key>
+						<string>Los Angeles Clippers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Los Angeles, CA</string>
+						<key>team_name</key>
+						<string>Los Angeles Lakers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Minneapolis, MN</string>
+						<key>team_name</key>
+						<string>Minnesota Timberwolves</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>New Orleans, LA</string>
+						<key>team_name</key>
+						<string>New Orleans Hornets</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Oklahoma City, OK</string>
+						<key>team_name</key>
+						<string>Oklahoma City Thunder</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Phoenix, AZ</string>
+						<key>team_name</key>
+						<string>Phoenix Suns</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Portland, OR</string>
+						<key>team_name</key>
+						<string>Portland Trail Blazers</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Sacramento, CA</string>
+						<key>team_name</key>
+						<string>Sacramento Kings</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>San Antonio, TX</string>
+						<key>team_name</key>
+						<string>San Antonio Spurs</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Salt Lake City, UT</string>
+						<key>team_name</key>
+						<string>Utah Jazz</string>
+					</dict>
+					<dict>
+						<key>team_location</key>
+						<string>Vancouver, BC</string>
+						<key>team_name</key>
+						<string>Vancouver Grizzlies</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>organization_name</key>
+		<string>National Basketball Association</string>
+	</dict>
+</array>
+</plist>
