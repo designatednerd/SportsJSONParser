@@ -17,10 +17,21 @@
 		9B004D851ABE352E00A5C82F /* sports.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B004D7F1ABE352E00A5C82F /* sports.plist */; };
 		9B004D8B1ABE35A400A5C82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B004D881ABE35A400A5C82F /* main.m */; };
 		9B004D8F1ABE36FA00A5C82F /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B004D8D1ABE36FA00A5C82F /* Launch Screen.xib */; };
+		9B004D991ABE386700A5C82F /* SportsJSONParser_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B004D981ABE386700A5C82F /* SportsJSONParser_Tests.m */; };
 		F5B792541733398B00E84264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792531733398B00E84264 /* UIKit.framework */; };
 		F5B792561733398B00E84264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792551733398B00E84264 /* Foundation.framework */; };
 		F5B792581733398B00E84264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792571733398B00E84264 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B004D9A1ABE386700A5C82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B792481733398B00E84264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B7924F1733398B00E84264;
+			remoteInfo = SportsJSONParser;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9B004D541ABE343200A5C82F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +53,9 @@
 		9B004D891ABE35A400A5C82F /* SportsJSONParser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SportsJSONParser-Info.plist"; path = "SportsJSONParser/SportsJSONParser-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9B004D8A1ABE35A400A5C82F /* SportsJSONParser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SportsJSONParser-Prefix.pch"; path = "SportsJSONParser/SportsJSONParser-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		9B004D8E1ABE36FA00A5C82F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/Launch Screen.xib"; sourceTree = "<group>"; };
+		9B004D941ABE386700A5C82F /* SportsJSONParser Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SportsJSONParser Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B004D971ABE386700A5C82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B004D981ABE386700A5C82F /* SportsJSONParser_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsJSONParser_Tests.m; sourceTree = "<group>"; };
 		F5B792501733398B00E84264 /* SportsJSONParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsJSONParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B792531733398B00E84264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5B792551733398B00E84264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9B004D911ABE386700A5C82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5B7924D1733398B00E84264 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,11 +142,29 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		9B004D951ABE386700A5C82F /* SportsJSONParser Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B004D981ABE386700A5C82F /* SportsJSONParser_Tests.m */,
+				9B004D961ABE386700A5C82F /* Supporting Files */,
+			);
+			path = "SportsJSONParser Tests";
+			sourceTree = "<group>";
+		};
+		9B004D961ABE386700A5C82F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B004D971ABE386700A5C82F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F5B792471733398A00E84264 = {
 			isa = PBXGroup;
 			children = (
 				F5FB19AD174314DE0065EAAE /* README.mdown */,
 				9B004D531ABE343200A5C82F /* SportsJSONParser */,
+				9B004D951ABE386700A5C82F /* SportsJSONParser Tests */,
 				F5B792521733398B00E84264 /* Frameworks */,
 				F5B792511733398B00E84264 /* Products */,
 			);
@@ -135,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				F5B792501733398B00E84264 /* SportsJSONParser.app */,
+				9B004D941ABE386700A5C82F /* SportsJSONParser Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +192,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9B004D931ABE386700A5C82F /* SportsJSONParser Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B004D9C1ABE386700A5C82F /* Build configuration list for PBXNativeTarget "SportsJSONParser Tests" */;
+			buildPhases = (
+				9B004D901ABE386700A5C82F /* Sources */,
+				9B004D911ABE386700A5C82F /* Frameworks */,
+				9B004D921ABE386700A5C82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B004D9B1ABE386700A5C82F /* PBXTargetDependency */,
+			);
+			name = "SportsJSONParser Tests";
+			productName = "SportsJSONParser Tests";
+			productReference = 9B004D941ABE386700A5C82F /* SportsJSONParser Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F5B7924F1733398B00E84264 /* SportsJSONParser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5B792761733398B00E84264 /* Build configuration list for PBXNativeTarget "SportsJSONParser" */;
@@ -177,6 +235,12 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Designated Nerd Software";
+				TargetAttributes = {
+					9B004D931ABE386700A5C82F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F5B7924F1733398B00E84264;
+					};
+				};
 			};
 			buildConfigurationList = F5B7924B1733398B00E84264 /* Build configuration list for PBXProject "SportsJSONParser" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -191,11 +255,19 @@
 			projectRoot = "";
 			targets = (
 				F5B7924F1733398B00E84264 /* SportsJSONParser */,
+				9B004D931ABE386700A5C82F /* SportsJSONParser Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9B004D921ABE386700A5C82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5B7924E1733398B00E84264 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +281,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9B004D901ABE386700A5C82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B004D991ABE386700A5C82F /* SportsJSONParser_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5B7924C1733398B00E84264 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +304,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B004D9B1ABE386700A5C82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B7924F1733398B00E84264 /* SportsJSONParser */;
+			targetProxy = 9B004D9A1ABE386700A5C82F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9B004D591ABE343200A5C82F /* InfoPlist.strings */ = {
@@ -246,6 +334,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9B004D9D1ABE386700A5C82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "SportsJSONParser Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsJSONParser.app/SportsJSONParser";
+			};
+			name = Debug;
+		};
+		9B004D9E1ABE386700A5C82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "SportsJSONParser Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsJSONParser.app/SportsJSONParser";
+			};
+			name = Release;
+		};
 		F5B792741733398B00E84264 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -331,6 +481,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9B004D9C1ABE386700A5C82F /* Build configuration list for PBXNativeTarget "SportsJSONParser Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B004D9D1ABE386700A5C82F /* Debug */,
+				9B004D9E1ABE386700A5C82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F5B7924B1733398B00E84264 /* Build configuration list for PBXProject "SportsJSONParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
