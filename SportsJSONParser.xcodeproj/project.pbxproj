@@ -16,6 +16,7 @@
 		9B004D841ABE352E00A5C82F /* sports.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B004D7E1ABE352E00A5C82F /* sports.json */; };
 		9B004D851ABE352E00A5C82F /* sports.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B004D7F1ABE352E00A5C82F /* sports.plist */; };
 		9B004D8B1ABE35A400A5C82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B004D881ABE35A400A5C82F /* main.m */; };
+		9B004D8F1ABE36FA00A5C82F /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B004D8D1ABE36FA00A5C82F /* Launch Screen.xib */; };
 		F5B792541733398B00E84264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792531733398B00E84264 /* UIKit.framework */; };
 		F5B792561733398B00E84264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792551733398B00E84264 /* Foundation.framework */; };
 		F5B792581733398B00E84264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B792571733398B00E84264 /* CoreGraphics.framework */; };
@@ -40,6 +41,7 @@
 		9B004D881ABE35A400A5C82F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SportsJSONParser/main.m; sourceTree = SOURCE_ROOT; };
 		9B004D891ABE35A400A5C82F /* SportsJSONParser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SportsJSONParser-Info.plist"; path = "SportsJSONParser/SportsJSONParser-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9B004D8A1ABE35A400A5C82F /* SportsJSONParser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SportsJSONParser-Prefix.pch"; path = "SportsJSONParser/SportsJSONParser-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		9B004D8E1ABE36FA00A5C82F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/Launch Screen.xib"; sourceTree = "<group>"; };
 		F5B792501733398B00E84264 /* SportsJSONParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsJSONParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B792531733398B00E84264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5B792551733398B00E84264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +72,7 @@
 				9B004D691ABE343200A5C82F /* ViewControllers */,
 				9B004D7D1ABE352E00A5C82F /* Data */,
 				9B004D801ABE352E00A5C82F /* SupportingFiles */,
+				9B004D8D1ABE36FA00A5C82F /* Launch Screen.xib */,
 			);
 			path = SportsJSONParser;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				9B004D851ABE352E00A5C82F /* sports.plist in Resources */,
 				9B004D841ABE352E00A5C82F /* sports.json in Resources */,
+				9B004D8F1ABE36FA00A5C82F /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +233,14 @@
 			);
 			name = InfoPlist.strings;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		9B004D8D1ABE36FA00A5C82F /* Launch Screen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B004D8E1ABE36FA00A5C82F /* en */,
+			);
+			name = "Launch Screen.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +310,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SportsJSONParser/SportsJSONParser-Prefix.pch";
 				INFOPLIST_FILE = "SportsJSONParser/SportsJSONParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = SportsJSONParser;
 				WRAPPER_EXTENSION = app;
 			};
@@ -309,6 +322,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SportsJSONParser/SportsJSONParser-Prefix.pch";
 				INFOPLIST_FILE = "SportsJSONParser/SportsJSONParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = SportsJSONParser;
 				WRAPPER_EXTENSION = app;
 			};
