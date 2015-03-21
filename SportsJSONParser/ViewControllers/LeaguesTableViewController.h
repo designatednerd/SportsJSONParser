@@ -1,8 +1,8 @@
 //
 //  LeagueTableViewController.h
-//  MLBJsonParser
+//  SportsJSONParser
 //
-//  Created by Transferred on 5/2/13.
+//  Created by Ellen Shapiro on 5/2/13.
 //  Copyright (c) 2013 Designated Nerd Software. All rights reserved.
 //
 
